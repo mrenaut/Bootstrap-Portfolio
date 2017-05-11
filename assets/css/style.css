@@ -27,22 +27,28 @@ img {
  	font-size: 	30px;
  }
 
+/*
+ h3 {
+ 	font-size: 15px;
+ }
+*/
 /*navbar*/
 #bs-example-navbar-collapse-1 {
 	font-size: 	14px;
 	font-weight: bold;
 }
 
+
 /*footer*/
 #footer {
 	text-align: center;	
 		color: white;
-		padding: 20px; 	
+		padding: 5px; 	
 }
 
 /*connect with me section*/
 #connectWithMeBox {
-	margin-top: 100px;
+	margin-top: 50px;
 	border-style: solid;	
 	border-width: 	5px;
 	border-color: 	#3daae8;
@@ -55,14 +61,17 @@ img {
 #panelHeading {
 	border-style: 	none;
 	border-style: 	none;
+	background-color: white;
 }
 
 #panelBody{
 	border-style: 	none;
+	background-color: white;
 }
 
 #panelBox {
 	border-style: 	none;
+	background-color: white;
 }
 /*controls height of social medial icons*/
 .social {
@@ -77,6 +86,29 @@ img {
 	height: 200px;
 }
 
+/*colorchanging aspect of header*/
+#header {
+	padding: 5px;
+     background-color: #3daae8;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+   }
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background: #3daae8;}
+    50%  {background: #0CE83D;}
+    100% {background: #3daae8;}
+}
 
+@keyframes example {
+    0%   {background: #3daae8;}
+    50%  {background: #0CE83D;}
+    100% {background: #3daae8;}
+}
+}
 
