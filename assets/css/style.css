@@ -1,0 +1,82 @@
+
+
+
+/*about me paragraph*/
+p {
+	line-height: 	2;
+	font-style: italic;
+}
+
+/*author picture*/
+img {
+	border-style: solid;	
+	border-width: 	5px;
+	border-color: 	#3daae8;
+	max-width: 	100%;
+}
+
+/*logo*/
+.navbar-brand {
+	font-size: 	30px;
+	font-style: italic;
+ }
+
+/*page heading*/
+ h1 {
+ 	text-align: center;
+ 	font-size: 	30px;
+ }
+
+/*navbar*/
+#bs-example-navbar-collapse-1 {
+	font-size: 	14px;
+	font-weight: bold;
+}
+
+/*footer*/
+#footer {
+	text-align: center;	
+		color: white;
+		padding: 20px; 	
+}
+
+/*connect with me section*/
+#connectWithMeBox {
+	margin-top: 100px;
+	border-style: solid;	
+	border-width: 	5px;
+	border-color: 	#3daae8;
+	text-align: 	center;	
+	margin-bottom: 	300px;
+	font-size: 	20px;
+}
+
+/*removes default borders from connect with me section*/
+#panelHeading {
+	border-style: 	none;
+	border-style: 	none;
+}
+
+#panelBody{
+	border-style: 	none;
+}
+
+#panelBox {
+	border-style: 	none;
+}
+/*controls height of social medial icons*/
+.social {
+	max-height: 70px;
+	max-width: 	50px;
+	border-style: none;
+}
+
+/*message part of form*/
+
+#inputMessage {
+	height: 200px;
+}
+
+
+
+
